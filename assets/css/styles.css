@@ -737,6 +737,13 @@ img{
   border: none;
 }
 
+/*==================== CASE STUDY ====================*/
+.case__img{
+  border-radius: .5rem;
+  justify-self: center;
+  padding: 2rem;
+}
+
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;

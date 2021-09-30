@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--==================== UNICONS ====================-->
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      
+      <!--==================== SWIPER CSS ====================-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      
+      <!--==================== CSS ====================-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>AGG</title>
+    </head>
+    <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">April Go-Gagoshidze</a>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link active-link">
+                  <i class="uil uil-estate nav__icon"></i> Back to home
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+          <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+              <i class="uil uil-estate nav__icon"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!--==================== Case Study ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">myFlix React Application</h2>
+        <h3 class="section__subtitle">Case Study</h3>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="portfolio__title">Overview</h3>
+            <p>myFlix is a web app, developed using the MERN stack, that allows
+              users to access information about movies, directors, and genres. Users are able to login, register,
+              update their personal data, and create a list of favorite movies.
+            </p>
+            <h3 class="portfolio__title">Purpose & Content</h3>
+            <p>myFlix was a project I built as part of my web development course at
+              CareerFoundry to execute and demonstrate the things I learned from the course.
+            </p>
+            <h3 class="portfolio__title">Objective</h3>
+            <p>The aim of the project was to create a project that I can add to my
+              professional portfolio. The problem I wanted to solve is to build the complete server-side and
+              client-side for the application from scratch.
+            </p>
+          </div>
+          <div>
+            <img src="assets/img/ReactApp.png" alt="React Project Photo" class="case__img">
+            <img src="assets/img/profile.png" alt="React Project Photo" class="case__img">
+          </div>
+          <br>
+          <br>
+        </div>
+
+        <div class="about__container container">
+          <h3 class="portfolio__title">Approach</h3>
+        </div>
+
+        <div class="about__container container grid">
+          <div>
+            <img src="assets/img/postman.png" alt="React Project Photo" class="case__img">
+            <img src="assets/img/favoritemovies.png" alt="React Project Photo" class="case__img">
+          </div>
+          <div class="about__data">
+            <h3 class="portfolio__title">Server-side</h3>
+            <p>I created a RESTful API using Node.js and Express, that interacts with a
+              non-relational database (MongoDB). The API can be accessed via commonly used HTTP methods like GET or
+              POST. To retrieve data from and store data in the database, CRUD methods are used. The API provides
+              movie information in JSON format.
+            </p>
+            <p>
+              I used Postman to test the API and I also included user authentication and authorization code in the
+              form of basic HTTP authentication and JWT authentication.
+            </p>
+            <br>
+            <h3 class="portfolio__title">Client-side</h3>
+            <p>After completing the API, I started to build the interface users would
+              need when making requests to, and receiving responses from, the server-side. It is a single-page,
+              responsive application, developed with React and React-Redux. I used  Bootstrap as a UI library for
+              styling and responsiveness.
+            </p>
+            <p>The client-side of the myFlix application includes several interface views built using the React library
+              that will handle data through the previously-defined REST API endpoints.
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="portfolio__title">Challenges</h3>
+            <p>Since this was the first major project in my portfolio, it took me over a
+              month to complete. I enjoyed every phase of the project, but of course challenges are always part of the
+              learning curve. I definitely had difficulties in every phase, for example converting a class component
+              into a functional component and vice versa. While I wasn't discouraged from using a mix of the two styles,
+              I still have to learn how to do it by researching.
+            </p>
+            <p>On this project it really took me a while to understand how React and Redux work. But that taught me the
+              basic skills I needed to solve any problem, namely learning to read the documentation, use console.log and
+              the developer tools window in the browser, and of course, learn how to ask for help.
+            </p>
+            <br>
+            <div>
+              <h3 class="portfolio__title">Credits</h3>
+              <p>Role: Lead Developer</p>
+              <p>Tutor: Eveline Kooijman</p>
+              <p>Mentor: Felix Panozzo</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container">
+            <div class="footer__socials">
+              <a href="https://www.linkedin.com/in/april-go-gagoshidze-614bb2204/" target="_blank" class="footer__social">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://github.com/goapril" target="_blank" class="footer__social">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="https://twitter.com/April80409451" target="_blank" class="footer__social">
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+              <a href="https://medium.com/@goapril" target="_blank" class="footer__social">
+                <i class="uil uil-medium-m"></i>
+              </a>
+            </div>
+          </div>
+
+          <p class="footer__copy">&#169; April Go-Gagoshidze. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
