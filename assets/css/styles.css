@@ -376,7 +376,14 @@ img{
 }
 
 /*==================== ABOUT ====================*/
-.about__img{
+.about__img1{
+  border-radius: .5rem;
+  justify-self: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.about__img2{
   border-radius: .5rem;
   justify-self: center;
 }
@@ -863,7 +870,10 @@ row-gap: 3.5rem;
   .nav__list{
     column-gap: 0;
   }
-  .about__img{
+  .about__img1{
+    text-align: center;
+  }
+  .about__img2{
     text-align: center;
   }
   .home__img{
@@ -983,7 +993,10 @@ row-gap: 3.5rem;
   .home__socials{
     padding-top: 2rem;
   }
-  .about__img{
+  .about__img1{
+    width: 280px;
+  }
+  .about__img2{
     width: 350px;
   }
   .about__description{
@@ -1089,7 +1102,7 @@ row-gap: 3.5rem;
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 280px;}
+  to{width: 300px;}
 }
 
 /* cursor animations */
