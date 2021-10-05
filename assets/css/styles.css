@@ -341,7 +341,7 @@ img{
 
 .button__icon{
   font-size: 1.25rem;
-  margin-left: 0;
+  margin-left: .25rem;
   transition: .3s;
 }
 
