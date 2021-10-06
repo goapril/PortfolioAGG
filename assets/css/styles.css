@@ -386,6 +386,8 @@ img{
 .about__img2{
   border-radius: .5rem;
   justify-self: center;
+  text-align: center;
+  padding: 2rem;
 }
 
 .about__description{
