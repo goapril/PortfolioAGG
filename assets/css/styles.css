@@ -727,12 +727,13 @@ img{
   font-size: 2rem;
   color: var(--first-color);
   margin-right: var(--mb-0-75);
+  margin-top: var(--mb-0-75);
 }
 
 .contact__title{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  margin: var(--mb-1) var(--mb-1) 0 0;
+  margin: var(--mb-1) var(--mb-1) var(--mb-1) 0;
 }
 
 .contact__subtitle{
