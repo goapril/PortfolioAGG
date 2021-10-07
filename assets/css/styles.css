@@ -279,11 +279,12 @@ img{
   margin-bottom: var(--mb-1-5);
 }
 
-.home__button{
+.home__buttons{
   background: none;
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
   padding-left: .5rem;
+  margin-top: 3rem;
 }
 
 .home__scroll{
@@ -398,9 +399,8 @@ img{
   /*text-align: left;*/
   /*margin-bottom: var(--mb-1-5);*/
   color: black;
-  padding: 2rem;
+  padding: 45px;
   background-color: lightblue;
-  font-weight: 900;
   opacity: .7;
 }
 
