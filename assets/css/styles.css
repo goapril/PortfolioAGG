@@ -13,10 +13,10 @@
   --first-color: hsl(var(--hue-color), 100%, 34%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 60%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --text-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color-light: hsl(var(--hue-color), 8%, 30%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #FFF;
@@ -285,6 +285,10 @@ img{
   font-weight: var(--font-semi-bold);
   padding-left: .5rem;
   margin-top: 3rem;
+}
+
+.home__button{
+  font-weight: 900;
 }
 
 .home__scroll{
@@ -706,7 +710,12 @@ img{
 
 .contact__socials{
   text-align: center;
-  margin: 7rem;
+  margin: 2rem;
+}
+
+.contact__social{
+  text-align: center;
+  margin-bottom: 6rem;
 }
 
 .contact__information{
