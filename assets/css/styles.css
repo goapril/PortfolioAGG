@@ -777,6 +777,13 @@ img{
   padding: 2rem;
 }
 
+/*==================== THANK YOU ====================*/
+.thankYou__message{
+  text-align: center;
+  padding: 5rem;
+  border: solid 1px darkcyan;
+}
+
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
