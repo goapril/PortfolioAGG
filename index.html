@@ -43,7 +43,7 @@
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a download="" href="assets/pdf/April_Go-Gagoshidze_Resume.pdf" class="nav__link">
+                  <a download="" href="assets/docs/April_Go-Gagoshidze_Resume.docx" class="nav__link">
                     <i class="uil uil-download-alt nav__icon"></i> Resume
                   </a>
                 </li>
@@ -644,31 +644,31 @@
               </div>
             </div>
 
-            <form action="" class="contact__form grid">
+            <form action="https://formsubmit.co/aprildgoga@gmail.com" method="POST" class="contact__form grid" id="contactForm">
               <div class="contact__inputs grid">
                 <div class="contact__content">
-                  <label for="" class="contaact__label">Name</label>
-                  <input type="text" class="contact__input">
+                  <label for="" class="contact__label">Name</label>
+                  <input type="text" class="contact__input" id="name" required>
                 </div>
                 <div class="contact__content">
-                  <label for="" class="contaact__label">Email</label>
-                  <input type="email" class="contact__input">
+                  <label for="" class="contact__label">Email</label>
+                  <input type="email" class="contact__input" id="email" required>
                 </div>
               </div>
               <div class="contact__content">
-                <label for="" class="contaact__label">Subject</label>
-                <input type="text" class="contact__input">
+                <label for="" class="contact__label">Subject</label>
+                <input type="text" class="contact__input" id="subject" required>
               </div>
               <div class="contact__content">
-                <label for="" class="contaact__label">Message</label>
-                <textarea name="" id="" cols="0" rows="5" class="contact__input"></textarea>
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="message" cols="0" rows="5" class="contact__input"></textarea>
               </div>
-
+              <input type="hidden" name="_subject" value="New email!">
+              <input type="hidden" name="_next" value="https://goapril.github.io/PortfolioAGG/thankyou.html">
               <div>
-                <a href="" class="button button--flex">
-                  Send Message
-                  <i class="uil uil-message button__icon"></i>
-                </a>
+                <button type="submit" class="button contact__button">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
@@ -707,6 +707,9 @@
       <!--==================== SWIPER JS ====================-->
       <script src="assets/js/swiper-bundle.min.js"></script>
 
+      <!--==================== FIREBASE ====================-->
+      <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+        
       <!--==================== MAIN JS ====================-->
       <script src="assets/js/main.js"></script>
     </body>

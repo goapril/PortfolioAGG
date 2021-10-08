@@ -758,9 +758,10 @@ img{
   color: var(--text-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  border: none;
+  border: 1px solid #c9e6ff;
   outline: none;
   padding: .25rem .25rem .25rem 0;
+  margin-bottom: .25rem;
 }
 
 .contact__button{

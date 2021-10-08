@@ -118,3 +118,50 @@ function scrollUp(){
   if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
+/*==================== CONTACT FORM ====================*/
+// Firebase
+var firebaseConfig = {
+  apiKey: "AIzaSyBLSkPqGe7AhiBIZJGZiTICPx_hRmk3Cgs",
+  authDomain: "contactform-2fabd.firebaseapp.com",
+  projectId: "contactform-2fabd",
+  storageBucket: "contactform-2fabd.appspot.com",
+  messagingSenderId: "325022504200",
+  appId: "1:325022504200:web:9cc43b23b4c4850df508bd"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// reference messages collection
+var messagesRef = firebase.database().ref('messages');
+
+// Listen to form submit
+document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+// Submit form
+function submitForm(e){
+  e.preventDefault();
+  // Get Values
+  var name = getInputVal('name');
+  var email = getInputVal('email');
+  var subject = getInputVal('subject');
+  var message = getInputVal('message');
+  
+  //console.log(name);
+  saveMessage(name, email, subject, message);
+}
+
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
+
+// Save messages to firebase
+function saveMessage(name, email, subject, message){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    name: name,
+    email: email,
+    subject: subject,
+    message: message
+  })
+}
